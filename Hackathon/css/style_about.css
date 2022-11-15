@@ -1,0 +1,9 @@
+h2 {
+    text-align: center;
+    color: rgba(72, 166, 137, 255);
+    text-decoration: underline;
+}
+
+.products {
+    background-color: rgb(240, 240, 240);
+}

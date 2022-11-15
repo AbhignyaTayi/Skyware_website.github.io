@@ -1,0 +1,364 @@
+    /* style of the overall website */
+    
+    * {
+        padding: 0;
+        margin: 0;
+    }
+    
+    html {
+        scroll-behavior: smooth;
+    }
+    /* styling the navlist */
+    
+    img.y {
+        width: -webkit-fill-available;
+    }
+    
+    .navbar {
+        display: flex;
+        height: 100px;
+        align-items: center;
+        justify-content: center;
+        position: sticky;
+        top: 0;
+        cursor: pointer;
+    }
+    
+    .nav-list {
+        width: 65%;
+        display: flex;
+        justify-content: center;
+    }
+    
+    .nav-list li {
+        list-style: none;
+        padding: 23px 34px;
+    }
+    
+    .nav-list li a {
+        text-decoration: none;
+        color: rgba(56, 60, 77, 255);
+        justify-content: right;
+        text-align: right;
+        font-size: 20px;
+        font-family: sans-serif;
+    }
+    
+    .nav-list li a:hover {
+        color: rgb(12, 80, 12);
+    }
+    
+    section.background.firstsection {
+        background: rgb(240, 240, 240) url('../img/dash.png');
+        background-repeat: no-repeat;
+        background-size: 100% 100vh;
+    }
+    /*  contact me button  */
+    
+    button.btn.contact1 {
+        margin-right: 30px;
+        padding: 7px;
+        font-size: 18px;
+        background-color: rgba(72, 166, 137, 255);
+        color: white;
+        border: 2px solid rgba(56, 60, 77, 255);
+        border-radius: 10px;
+    }
+    
+    button.btn.contact1:hover {
+        color: rgba(56, 60, 77, 255);
+        background-color: rgba(72, 166, 137, 255);
+    }
+    /* Login button */
+    
+    button.btn.login {
+        margin-right: 30px;
+        padding: 7px;
+        font-size: 18px;
+        color: aliceblue;
+        background-color: rgba(56, 60, 77, 255);
+        border: 2px solid rgba(72, 166, 137, 255);
+        border-radius: 10px;
+    }
+    
+    button.btn.login:hover {
+        color: rgba(72, 166, 137, 255);
+        background-color: rgba(56, 60, 77, 255);
+    }
+    
+    .logo {
+        width: 50%;
+    }
+    
+    .logo img {
+        width: 100%;
+        margin-right: 170px;
+        margin-left: 40px;
+    }
+    
+    .rightnav {
+        width: 130%;
+        text-align: right;
+    }
+    
+    .background {
+        background: url('../img/back.jpeg');
+        background-size: cover;
+        background-blend-mode: darken;
+    }
+    
+    .firstsection {
+        height: 90vh;
+    }
+    /* color pallete */
+    /* dark blue color : rgba(56,60,77,255)
+    green color : rgba(72,166,137,255) */
+    
+    .box-main {
+        display: flex;
+        justify-content: center;
+        color: rgba(72, 166, 137, 255);
+        align-items: center;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        max-width: 100%;
+        margin: auto;
+        height: 75%;
+    }
+    
+    .fhalf {
+        width: 85%;
+        display: flex;
+        justify-content: left;
+        flex-direction: column;
+    }
+    
+    .shalf {
+        width: 30%;
+    }
+    
+    .shalf img {
+        width: 72%;
+        /* border: 2px solid rgb(0, 0, 0); */
+        border-radius: 20px;
+        display: block;
+        margin: auto;
+    }
+    
+    h1 {
+        text-align: left;
+        font-size: 30px;
+        font-weight: bolder;
+        font-style: italic;
+    }
+    
+    get.text,
+    get.text2 {
+        text-align: left;
+    }
+    
+    h2 {
+        font-size: 30px;
+    }
+    
+    p.text {
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        text-align: center;
+        font-size: 18px;
+    }
+    /* ############################################################ */
+    /*  Styling for About us and products section */
+    /* color pallete */
+    /* dark blue color : rgba(56,60,77,255)
+    green color : rgba(72,166,137,255) */
+    
+    .secright {
+        height: 500px;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        max-width: 80%;
+        margin: auto;
+    }
+    
+    .sectionsubtag {
+        font-family: fangsong;
+        ;
+    }
+    
+    .paras {
+        padding: 0 10px;
+        text-align: center;
+        font-family: fangsong;
+        font-weight: bold;
+    }
+    
+    .thumbnail img {
+        width: 250px;
+    }
+    
+    p.sectionsubtag {
+        text-align: center;
+        color: rgba(56, 60, 77, 255);
+        font-weight: bold;
+    }
+    
+    p.sectiontag {
+        text-align: center;
+        font-size: 30px;
+        font-family: inherit;
+        text-decoration: underline;
+        font-style: normal;
+        font-weight: bold;
+        color: rgba(72, 166, 137, 255);
+    }
+    
+    .chabra {
+        text-align: inherit;
+        font-family: fangsong;
+        font-weight: bold;
+    }
+    /* ############################################################ */
+    /*  Styling for contact us section */
+    
+    .contact {
+        text-align: center;
+        background-color: #f0f0f0;
+        height: 833px;
+    }
+    
+    .text-centre {
+        text-align: center;
+        padding: 30px;
+        font-family: sans-serif;
+        font-size: 35px;
+    }
+    
+    .form {
+        text-align: center;
+        max-width: 500%;
+        margin: 42px auto;
+    }
+    
+    .btn-dark {
+        color: rgba(56, 60, 77, 255);
+        border: 2px solid rgba(56, 60, 77, 255);
+        padding: 10px 10px;
+        border-radius: 15px;
+        background-color: rgba(56, 60, 77, 255);
+        color: rgba(56, 60, 77, 255);
+        background-color: white;
+        font-weight: bold;
+        font-size: 21px;
+        margin: 0 3px;
+        cursor: pointer;
+    }
+    
+    .btn-dark:hover {
+        background-color: rgb(5, 5, 51);
+        color: aliceblue;
+    }
+    
+    .form-input {
+        text-align: center;
+        margin: 14px 0;
+        padding: 5px 3px;
+        width: 50%;
+        font-size: 20px;
+        color: gray;
+        border: 2px solid gray;
+        border-radius: 7px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+    
+    .imageside img {
+        width: 15%;
+        margin-right: 10px;
+        margin-left: 90px;
+        display: block;
+    }
+    /* *********************************************************** */
+    /* Styling the footer */
+    /* dark blue color : rgba(56,60,77,255)
+    green color : rgba(72,166,137,255) */
+    
+    .text-footer {
+        text-align: center;
+        font-family: sans-serif;
+        display: flex;
+        justify-content: center;
+        color: rgba(56, 60, 77, 255);
+        background-color: rgba(72, 166, 137, 255);
+        padding: 20px 0;
+    }
+    
+    .social {
+        background-color: rgba(56, 60, 77, 255);
+    }
+    
+    p {
+        text-align: center;
+        color: rgba(72, 166, 137, 255);
+    }
+    
+    footer {
+        text-align: center;
+        background-color: rgba(72, 166, 137, 255);
+    }
+    /* ***************************************** */
+    /* For making the website responsive  */
+    
+    .burger {
+        display: none;
+        position: absolute;
+        cursor: pointer;
+        right: 5%;
+        top: 15px;
+        text-align: center;
+    }
+    
+    .line {
+        width: 33px;
+        text-align: center;
+        background-color: black;
+        height: 4px;
+        margin: 3px 3px;
+    }
+    
+    @media only screen and (max-width:1370px) {
+        .nav-list {
+            text-align: center;
+            flex-direction: column;
+        }
+        .navbar {
+            flex-direction: column;
+            transition: all 0.7s ease-out;
+        }
+        .rightnav {
+            text-align: center;
+        }
+        .burger {
+            display: block;
+        }
+        .box-main {
+            flex-direction: column-reverse;
+            max-width: 100%;
+        }
+        .h-nav-resp {
+            height: 72px;
+        }
+        .v-class-resp {
+            opacity: 0;
+        }
+        .about {
+            flex-direction: column-reverse;
+        }
+        .text {
+            text-align: center;
+        }
+        .text1 {
+            text-align: center;
+        }
+        .paras {
+            padding: 0px;
+        }
+    }
